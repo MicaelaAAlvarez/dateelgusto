@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sandwich</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+		<title>dateelgusto</title>
+		<link rel="icon" href="dateelgusto.ico">
+		<link rel="stylesheet" type="text/css" href="../normalize.css">
+		<meta name="keyworkds" content="Sandwiches, Tortas Saladas, Figazas, Arrollados, triples, de miga, promos en Sandwiches, cosas Saladas, todo salado">
+		<meta name="robots" content="index">
+		<meta name="description" content="Sandwicheria artesanal, fabricación por pedido de sandwiches, tortas saladas, figazas, arrollados y a gusto del cliente. Todo a eleccion, atención personalizada y con envíos a domicilio.">
+		<meta name="copyright" content="dateelgusto">
+		<meta name="author" content="alvarezmicaela">
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ewert&family=Merriweather:ital,wght@1,300&family=Jacques+Francois+Shadow&family=Metal&family=Libre+Baskerville&display=swap" rel="stylesheet">
+		<style type="text/css">
+*{
+	list-style: none; /*saco estilo (puntos) de las listas*/
+}
+body{
+	background: #d5a5f2;
+}
+header {
+	position: relative;
+	display: flex;
+	height: 100px;
+	text-align: center;
+	min-width: 900px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	text-align: center;
+
+	
+}
+/*.titulo{
+	position: absolute;
+	text-align: center;
+	display: inline-block;
+	height: 50px;
+}*/
+	
+
+#titulo{
+	display:inline-block;
+	position: relative;
+	height: 100px;
+	margin: 0;
+	padding-top: 10px;
+	font-family: 'Jacques Francois Shadow', cursive;
+	color: #fb1963;
+	flex-grow: 1;
+	min-width: 900px;
+	line-height: 100px;
+	font-size: 60px;
+	text-align: center;
+
+
+
+}
+#logo {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+	top: 0;
+
+}
+
+/*.form{
+	display: flex;
+	flex-grow: center;
+	justify-content: center;
+	padding: 10px;
+
+}*/
+ .contac{
+ 	position: absolute;
+ 	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-right: 15px;
+	right: 0;
+ }
+.icono1 {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+
+
+}
+.icono2 {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	right: 54px;
+	bottom: 0;
+}
+.icono3 {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	right: 108px;
+	bottom: 0;
+}
+
+nav {
+
+	display: :flex;
+	position: sticky;
+	top: 0;
+	height: 50px;
+	padding: 0;
+	box-sizing: content-box;
+	line-height: 50px;
+	text-align: center;
+	border-top: 2px solid #fb1963;
+	border-bottom: 2px solid #fb1963;	
+	z-index: 100;
+	background: #d5a5f2;
+	min-width: 900px;
+
+
+	
+}
+
+
+.navpc{
+	display: flex;
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+	flex-grow: 1;
+	text-align: center;
+	min-width: 800px;	
+	z-index: 100;
+
+
+}
+.navpc li {
+	display: inline-block;
+	position: relative;
+	flex-grow: 1;
+	min-width: 115px;
+	z-index: 100;
+
+}
+nav ul li:hover{ 		/*cambia de color u opacida cuando el mouse pasa por ensima*/
+	background: #f9aec7;
+	opacity: 0.8;
+} 
+nav ul li:active{ /* cuando se apreta el boton se realiza alguna accion*/
+	background: #f55187;
+	opacity:0.5 ;
+}
+nav ul li a{
+	text-decoration: none;
+	font-family: 'Libre Baskerville', serif;
+	height: 5px;
+	color: #000;
+	font-size: 20px ;
+	position: relative;
+	height: 50px;
+	line-height: 50px;	
+	z-index: 100;
+	color: #500385;
+}
+.divtitulo{
+	display: flex;
+	position: relative;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	min-width: 900px;
+	font-family: 'Libre Baskerville', serif;
+
+
+
+}
+.tituloprincipal{
+	
+	display: inline-block;
+	position: relative;
+	line-height: center;
+	font-size: 40px;
+	font-family: 'Jacques Francois Shadow',cursive;
+	color: #fb1963;
+	margin: 5px;
+	flex-grow: 1;
+	text-align: center;
+	margin-right: 0;
+	padding-left: 150px;
+	color: #500385;
+
+}
+.divarti{
+	min-width: 900px ;
+	display: flex;
+	position: relative;
+	color: #500385;
+}
+.lista {
+	display: flex;
+	position: relative;
+	min-width: 900px;
+	text-align: center;
+	flex-grow: 1;
+	color: #500385;
+
+
+
+}
+.clas{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	margin: 5px;
+	box-sizing: content-box;
+	border: double #fb1963;
+	border-radius: 20%;
+	padding: 2px;
+	min-height: 300px;
+	padding-top: 20px;
+	min-width: 225px;
+
+}
+.clasicostitulo{
+	display: inline-block;
+	position: relative;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	margin: 5px;
+	font-weight: 1000;
+	font-size: 20px;
+
+}
+.clasicosproducto{
+	display: inline-block;
+	position: relative;
+	font-family: 'Libre Baskerville', serif;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 100%;
+	font-weight:800 ;
+	text-align: center;
+
+
+}
+.divimag{
+	display: inline-block;
+	position: relative;
+	min-width: 900px;
+	height: 600px;
+	text-align: center;
+
+}
+.divdivimag{
+	display: flex;
+	position: relative;
+	min-width: 900px;
+	flex-wrap: wrap;	
+	text-align: center;
+
+
+
+
+}
+.divdivimag img{
+	display: block;
+	position: relative;
+	height: 400px;
+	width: 400px;
+	margin:auto;
+	margin-top: 15px;
+	border: 2px solid #fb1963;
+	border-radius: 10%;
+	box-shadow: 2px 5px 5px	#000;	
+	text-align: center;
+	padding: 5px;
+
+
+}
+footer{
+	display: flex;
+	position: relative;
+	margin-top: 5px;
+	height: 30px;
+	line-height: 30px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 10px;
+	min-width:900px;	
+	text-align: center;
+	margin: 5px;
+	color: #500385;
+}
+footer h4{
+	margin: 10px auto;
+}
+
+
+		</style>
+</head>
+<body>
+	<header>
+	
+			<h1 id="titulo">Date el Gusto M&S</h1>
+		
+
+			<div ><a href="../index.html">
+				<img id="logo"src="../dateelgusto.ico">
+				</a>		
+			</div>
+		<!--<div><form class="form">
+			<input type="texto" value="Buscar">
+			<input type="button" value="Buscar">
+		</form></div>-->
+			<div><a href="https://www.facebook.com/DateelGustoMyS" target="-BLANK"><img class="icono1" src="../facebook.png"></a>
+			</div>
+			<div><a href="https://www.instagram.com/date.el.gusto.mys/?hl=es" target="-BLANK"><img class="icono2" src="../intagram.png"></a></div>
+			<div><a href="https://api.whatsapp.com/send?phone=541133228955&app=facebook&entry_point=page_cta" target="-BLANK"><img class="icono3" src="../whatssap.png"></a></div>
+		</header>
+
+		<!-- barra de navegación-->
+		<nav>
+			<ul class="navpc">
+				<li class="b1"><a href="../index.html">Inicio</a></li>
+				<li class="b2"><a href="miga.html">Sandwiches</a></li>
+				<li class="b3"><a href="torta.html">Tortas Saladas</a></li>
+				<li class="b4"><a href="agridulce.html">Agridulce</a></li>
+				<li class="b5"><a href="arrollados.html">Arrollados</a></li>
+				<li class="b6"><a href="figazas.html">Figazas</a></li>
+				<li class="b7"><a href="promos.html">Promos</a></li>
+			</ul>
+		</nav>
+		<div class="divtitulo"><h2 class="tituloprincipal">Triples de Miga Surtidos</h2></div>
+		<div class="divarti">
+			<article class="lista">
+				<ul class="clas">
+					<h3 class="clasicostitulo"> Triples Clásicos</h3>
+					<li class="clasicosproducto"> Jamón y queso </li>
+					<li class="clasicosproducto"> Jamón y tomate </li>
+					<li class="clasicosproducto"> Jamón y huevo </li>
+					<li class="clasicosproducto"> Jamón y choclo </li>
+					<li class="clasicosproducto"> Jamón y lechuga </li>
+					<li class="clasicosproducto"> Salame y queso </li>
+					<li class="clasicosproducto"> Salame y queso </li>
+				</ul>
+				<ul class="clas">
+					<h3 class="clasicostitulo">Triples Especiales</h3>
+					<li class="clasicosproducto">Jamón y palmitos</li>
+					<li class="clasicosproducto"> Jamón y roquefort</li>
+					<li class="clasicosproducto"> Jamón y ananá </li>
+					<li class="clasicosproducto"> Jamón y morrones</li>
+					<li class="clasicosproducto"> Queso y cantimpalo </li>
+					<li class="clasicosproducto"> Queso y atún</li>
+					<li class="clasicosproducto"> Jamón crudo y queso </li>
+					<li class="clasicosproducto"> Jamón crudo y tomate</li>
+					<li class="clasicosproducto"> Aceitunas negras y queso </li>
+				</ul >
+				<ul class="clas">
+					<h3 class="clasicostitulo">Triples Vegetarianos</h3>
+					<li class="clasicosproducto">Queso y tomate</li>
+					<li class="clasicosproducto"> Queso y huevo</li>
+					<li class="clasicosproducto"> Queso y lechuga </li>
+					<li class="clasicosproducto"> Queso y choclo</li>
+					<li class="clasicosproducto"> Queso y morrón</li>
+					<li class="clasicosproducto"> Queso y zanahoria</li>
+					<li class="clasicosproducto"> Queso y aceitunas </li>					
+				</ul>
+				<ul class="clas">
+					<h3 class="clasicostitulo">Triples Gourmet</h3>
+					<li class="clasicosproducto">Anchoas y queso</li>
+					<li class="clasicosproducto"> Jamón crudo y palmitos</li>
+					<li class="clasicosproducto"> Jamón crudo y roquefort</li>
+					<li class="clasicosproducto"> Jamón crudo y ananá</li>
+					<li class="clasicosproducto"> Atún, tomate y queso</li>
+					<li class="clasicosproducto"> Morrón, huevo y jamón</li>
+					<li class="clasicosproducto"> Tomate, albahca y queso</li>
+					<li class="clasicosproducto"> Pollo, tomate y queso</li>					
+				</ul>
+			</article> 
+		</div class="divimag">
+			<div class="divdivimag">
+				<img src="../imagenescomida/book/miga (1).jpeg">
+				<img src="../imagenescomida/book/miga (2).jpeg">
+				<img src="../imagenescomida/book/miga (3).jpeg">
+				<img src="../imagenescomida/book/miga (5).jpeg">
+				<img src="../imagenescomida/book/miga (6).jpeg">
+				<img src="../imagenescomida/book/miga (7).jpeg">
+				
+			</div>
+		</div>
+
+		<footer>
+			<h4>&#169 Todos los derechos reservados.</h4>
+		</footer>
+	
+
+
+</body>
+
+</html>
