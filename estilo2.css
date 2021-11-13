@@ -1,0 +1,274 @@
+*{
+	list-style: none; /*saco estilo (puntos) de las listas*/
+}
+body{
+	background: #d5a5f2;
+}
+header {
+	position: relative;
+	display: flex;
+	height: 100px;
+	text-align: center;
+	min-width: 900px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	text-align: center;
+
+	
+}
+/*.titulo{
+	position: absolute;
+	text-align: center;
+	display: inline-block;
+	height: 50px;
+}*/
+	
+
+#titulo{
+	display:inline-block;
+	position: relative;
+	height: 100px;
+	margin: 0;
+	padding-top: 10px;
+	font-family: 'Jacques Francois Shadow', cursive;
+	color: #fb1963;
+	flex-grow: 1;
+	min-width: 900px;
+	line-height: 100px;
+	font-size: 60px;
+	text-align: center;
+
+
+
+}
+#logo {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+	top: 0;
+
+}
+
+/*.form{
+	display: flex;
+	flex-grow: center;
+	justify-content: center;
+	padding: 10px;
+
+}*/
+ .contac{
+ 	position: absolute;
+ 	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-right: 15px;
+	right: 0;color: #500385;
+ }
+.icono1 {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+
+
+}
+.icono2 {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	right: 54px;
+	bottom: 0;
+}
+.icono3 {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	right: 108px;
+	bottom: 0;
+}
+
+nav {
+
+	display: :flex;
+	position: sticky;
+	top: 0;
+	height: 50px;
+	padding: 0;
+	box-sizing: content-box;
+	line-height: 50px;
+	text-align: center;
+	border-top: 2px solid #fb1963;
+	border-bottom: 2px solid #fb1963;	
+	z-index: 100;
+	background: #d5a5f2;
+	min-width: 900px;
+
+
+	
+}
+
+
+.navpc{
+	display: flex;
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+	flex-grow: 1;
+	text-align: center;
+	min-width: 800px;	
+	z-index: 100;
+
+
+}
+.navpc li {
+	display: inline-block;
+	position: relative;
+	flex-grow: 1;
+	min-width: 115px;
+	z-index: 100;
+
+}
+nav ul li:hover{ 		/*cambia de color u opacida cuando el mouse pasa por ensima*/
+	background: #f9aec7;
+	opacity: 0.8;
+} 
+nav ul li:active{ /* cuando se apreta el boton se realiza alguna accion*/
+	background: #f55187;
+	opacity:0.5 ;
+}
+nav ul li a{
+	text-decoration: none;
+	font-family: 'Libre Baskerville', serif;
+	height: 5px;
+	color: #000;
+	font-size: 20px ;
+	position: relative;
+	height: 50px;
+	line-height: 50px;	
+	z-index: 100;color: #500385;
+}
+
+.imagenes{
+	display: flex;
+	position: relative;
+	height: 260px;
+	min-width: 900px;
+	line-height: 150px;
+	z-index: 2;
+	margin: 10px;
+	object-fit: cover;
+	justify-content: space-evenly;
+}
+.link {	
+	display: flex;
+	position: relative;
+	height: 250px;
+	width: 350px;
+	margin: 5px;	
+	
+
+
+}
+.imag{
+	display: flex;
+	position: relative;
+	flex-grow: 2;
+	border-radius:10% 0;
+	box-shadow: 2px 5px 5px	#000;
+	border: 2px solid #fb1963;
+	z-index: 2;
+
+
+ }
+ .imag:hover{
+ 	opacity: 0.8;
+ 	background: #fb1963;
+ }
+
+
+
+.publicidad{
+	display: flex;
+	position: relative;
+	background-color: #aaa;
+	text-align: center;
+	margin: 5px 0;
+	min-height: 60px;
+	min-width: 900px;
+	line-height: 60px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 14px;
+	background: url();
+	border-top: 3px solid #fb1963;
+	border-bottom: 3px solid #fb1963;
+	color: #500385;
+
+}
+.publicidad h2{
+position: relative;
+	text-align: center;
+	min-width: 900px;
+	margin: auto;
+}
+
+footer{
+	display: flex;
+	position: relative;
+	margin-top: 5px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 10px;
+	min-width:900px;	
+	text-align: center;
+	margin: auto;color: #500385;
+}
+footer h4{
+	margin: 20px auto;
+
+}
+
+.imagenesscreen{
+	display: none;
+}
+.imagscreen{
+	display: none;
+}
+
+@media only screen and (max-width: 1000px){
+	.imagenes{
+		display: none;
+	}
+	.imag {
+		display: none;
+	}
+
+	.imagenesscreen{
+	display: flex;
+	flex-wrap:wrap ;
+	position: relative;
+	
+	min-width: 900px;
+	text-align: center;
+	object-fit: cover;
+
+	z-index: 1;
+}
+.imagscreen{
+	display: flex;
+	position: relative;
+	height: 350px;
+	width: 25%;
+	margin: auto;
+	flex-grow: 1;
+	border-radius:10% 0;
+	box-shadow: 2px 5px 5px	#000;
+	margin: 5px;
+	border: 2px solid #fb1963;
+	z-index: ´1px;
+}
+}
