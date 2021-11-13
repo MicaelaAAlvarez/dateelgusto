@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sandwich</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+		<title>dateelgusto</title>
+		<link rel="icon" href="../dateelgusto.ico">
+		<link rel="stylesheet" type="text/css" href="../normalize.css">
+		<meta name="keyworkds" content="Sandwiches, Tortas Saladas, Figazas, Arrollados, triples, de miga, promos en Sandwiches, cosas Saladas, todo salado">
+		<meta name="robots" content="index">
+		<meta name="description" content="Sandwicheria artesanal, fabricación por pedido de sandwiches, tortas saladas, figazas, arrollados y a gusto del cliente. Todo a eleccion, atención personalizada y con envíos a domicilio.">
+		<meta name="copyright" content="dateelgusto">
+		<meta name="author" content="alvarezmicaela">
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ewert&family=Merriweather:ital,wght@1,300&family=Jacques+Francois+Shadow&family=Metal&family=Libre+Baskerville&display=swap" rel="stylesheet">
+		<style type="text/css">
+*{
+	list-style: none; /*saco estilo (puntos) de las listas*/
+}
+body{
+	background: #d5a5f2;
+}
+header {
+	position: relative;
+	display: flex;
+	height: 100px;
+	text-align: center;
+	min-width: 900px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	text-align: center;
+
+	
+}
+/*.titulo{
+	position: absolute;
+	text-align: center;
+	display: inline-block;
+	height: 50px;
+}*/
+	
+
+#titulo{
+	display:inline-block;
+	position: relative;
+	height: 100px;
+	margin: 0;
+	padding-top: 10px;
+	font-family: 'Jacques Francois Shadow', cursive;
+	color: #fb1963;
+	flex-grow: 1;
+	min-width: 900px;
+	line-height: 100px;
+	font-size: 60px;
+	text-align: center;
+
+
+
+}
+#logo {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+	top: 0;
+
+}
+
+/*.form{
+	display: flex;
+	flex-grow: center;
+	justify-content: center;
+	padding: 10px;
+
+}*/
+ .contac{
+ 	position: absolute;
+ 	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-right: 15px;
+	right: 0;
+ }
+.icono1 {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+
+
+}
+.icono2 {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	right: 54px;
+	bottom: 0;
+}
+.icono3 {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	right: 108px;
+	bottom: 0;
+}
+
+nav {
+
+	display: :flex;
+	position: sticky;
+	top: 0;
+	height: 50px;
+	padding: 0;
+	box-sizing: content-box;
+	line-height: 50px;
+	text-align: center;
+	border-top: 2px solid #fb1963;
+	border-bottom: 2px solid #fb1963;	
+	z-index: 100;
+	background: #d5a5f2;
+	opacity: 0.8;min-width: 900px;
+
+
+	
+}
+
+
+.navpc{
+	display: flex;
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+	flex-grow: 1;
+	text-align: center;
+	min-width: 800px;	
+	z-index: 100;
+
+
+}
+.navpc li {
+	display: inline-block;
+	position: relative;
+	flex-grow: 1;
+	min-width: 115px;
+	z-index: 100;
+
+}
+nav ul li:hover{ 		/*cambia de color u opacida cuando el mouse pasa por ensima*/
+	background: #f9aec7;
+	opacity: 0.8;
+} 
+nav ul li:active{ /* cuando se apreta el boton se realiza alguna accion*/
+	background: #f55187;
+	opacity:0.5 ;
+}
+nav ul li a{
+	text-decoration: none;
+	font-family: 'Libre Baskerville', serif;
+	height: 5px;
+	color:  #500385;
+	font-size: 20px ;
+	position: relative;
+	height: 50px;
+	line-height: 50px;	
+	z-index: 100;
+}
+.divtitulo{
+	display: flex;
+	position: relative;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	min-width: 900px;
+}
+.tituloprincipal{
+	
+	display: inline-block;
+	position: relative;
+	line-height: center;
+	font-size: 40px;
+	font-family: 'Jacques Francois Shadow',cursive;
+	color: #fb1963;
+	margin: 5px;
+	flex-grow: 1;
+	text-align: center;
+	margin-right: 0;
+	padding-left: auto;
+	color: #500385;
+}
+.mayor{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	min-width: 900px;
+}
+.dlista{
+	width: 500px ;
+	display: inline-flex;
+	position: relative;
+	color: #500385;
+	justify-content: space-evenly;
+	font-family: 'Libre Baskerville', serif;
+
+}
+.dlistadeco{
+	width: 200px ;
+	display: inline-flex;
+	position: relative;
+	color: #500385;
+	height: 180px;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+}
+.dullistasabores{
+	display: inline-block;
+	position: relative;
+	min-width: 200px;
+	height: 180px;
+	text-align: center;
+	flex-grow: 1;
+	color: #500385;
+	border: double #fb1963;
+	border-radius: 11%;
+	margin-right: 5px;
+	margin-left: 5px; 
+	font-family: 'Libre Baskerville', serif;
+
+}
+.dullistadeco{
+	display: inline-block;
+	position: relative;
+	min-width: 200px;
+	height: 180px;
+	text-align: center;
+	flex-grow: 1;
+	color: #500385;
+	border: double #fb1963;
+	border-radius: 10%;
+	
+
+	
+}
+
+.listatitulo{
+	display: block;
+	position: relative;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	margin: 5px;
+	font-weight: 1000;
+	font-size: 20px;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.clasessabores{
+	display: block;
+	position: relative;
+	font-family: 'Libre Baskerville', serif;
+	min-width: 400px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+
+	}
+.clases{
+	display: block;
+	position: relative;
+	font-family: 'Libre Baskerville', serif;
+	width: 200px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;}
+
+	.conteiner{
+		display: grid;
+
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(3, 250px);
+		padding: 10px;
+		grid-gap: 5px;
+
+
+	}
+	.conteiner img{
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		border: 2px solid #fb1963 ;
+		border-radius: 10%;
+
+	}
+
+	footer{
+	display: flex;
+	position: relative;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 10px;
+	min-width:900px;	
+	text-align: center;
+	margin: auto;color: #500385;
+}
+footer h4{
+	margin: 10px auto;
+
+}
+
+	@media only screen and (max-width: 1000px){
+		.conteiner{
+		display: grid;
+		position: relative;
+		height: 1310px;
+		box-sizing: content-box;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(5, 250px);
+		padding: 10px;
+		grid-gap: 5px;}
+		.conteiner img:last-child {
+			grid-column: 1/3;
+			height: 300px;
+		}
+	}
+
+
+		</style>
+</head>
+<body>
+	<header>
+	
+			<h1 id="titulo">Date el Gusto M&S</h1>
+		
+
+			<div ><a href="../index.html">
+				<img id="logo"src="../dateelgusto.ico">
+				</a>		
+			</div>
+		<!--<div><form class="form">
+			<input type="texto" value="Buscar">
+			<input type="button" value="Buscar">
+		</form></div>-->
+			<div><a href="https://www.facebook.com/DateelGustoMyS" target="-BLANK"><img class="icono1" src="../facebook.png"></a>
+			</div>
+			<div><a href="https://www.instagram.com/date.el.gusto.mys/?hl=es" target="-BLANK"><img class="icono2" src="../intagram.png"></a></div>
+			<div><a href="https://api.whatsapp.com/send?phone=541133228955&app=facebook&entry_point=page_cta" target="-BLANK"><img class="icono3" src="../whatssap.png"></a></div>
+		</header>
+
+		<!-- barra de navegación-->
+		<nav>
+			<ul class="navpc">
+				<li class="b1"><a href="../index.html">Inicio</a></li>
+				<li class="b2"><a href="miga.html">Sandwiches</a></li>
+				<li class="b3"><a href="torta.html">Tortas Saladas</a></li>
+				<li class="b4"><a href="agridulce.html">Agridulce</a></li>
+				<li class="b5"><a href="arrollados.html">Arrollados</a></li>
+				<li class="b6"><a href="figazas.html">Figazas</a></li>
+				<li class="b7"><a href="promos.html">Promos</a></li>
+			</ul>
+		</nav>
+		<div class="divtitulo">
+			<h3 class="tituloprincipal">Tortas Saladas</h3>
+		</div>
+		<div class="mayor">
+			<div class="dlista">
+			<ul class="dullistasabores">
+				<div class="listatitulo"><h4 class="listatitulo">Rellenos a elección</h4></div>
+				<li class="clasessabores">Jamón, Queso, Tomate, Huevo, Salame</li>
+				<li class="clasessabores">Choclo, Lechuga, Palmitos, Roquefort </li>
+				<li class="clasessabores">Ananá, Morrones, Cantimpalo, Jamón Crudo </li>
+				<li class="clasessabores">Atún, Aceitunas negras, Albahca, Pollo</li>
+				<li class="clasessabores">Consultar por otros sabores</li>
+			</ul></div>
+		<div class="dlistadeco">		
+				<ul class="dullistadeco">
+					<h4 class="listatitulo">Tamaños</h4>
+					<li class="clases">Chicas</li>
+					<li class="clases">Medianas</li>
+					<li class="clases">Grandes</li>
+					<h4 class="listatitulo">Decoración</h4>
+					<li class="clases">Números</li>
+					<li class="clases">Letras</li></ul>
+
+				</ul>
+			</div>
+		</div>
+		<div class="conteiner">
+			<img src="..\imagenescomida\book/torta (1).jpeg">
+			<img src="..\imagenescomida\book/torta (2).jpeg">
+			<img src="..\imagenescomida\book/torta (3).jpeg">
+			<img src="..\imagenescomida\book/torta (4).jpeg">
+			<img src="..\imagenescomida\book/torta (5).jpeg">
+			<img src="..\imagenescomida\book/torta (6).jpeg">
+			<img src="..\imagenescomida\book/torta (9).jpeg">
+			<img src="..\imagenescomida\book/torta (8).jpeg">
+			<img src="..\imagenescomida\book/torta (7).jpeg">
+
+		</div>
+
+	<footer>
+			<h4>&#169 Todos los derechos reservados.</h4>
+		</footer>
+
+	
+</body>
+</html>
